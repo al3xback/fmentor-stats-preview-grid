@@ -190,7 +190,10 @@ ol {
   overflow: hidden;
 }
 
-.card__image {
+.card__image,
+.card__content,
+.card__stats-list,
+.card__stats-list-item {
   display: grid;
 }
 
@@ -214,7 +217,6 @@ ol {
 }
 
 .card__content {
-  display: grid;
   padding: 2.6666666667em 1.6em;
   text-align: center;
 }
@@ -229,11 +231,6 @@ ol {
 
 .card__desc {
   margin-bottom: 2.4em;
-}
-
-.card__stats-list,
-.card__stats-list-item {
-  display: grid;
 }
 
 .card__stats-list {

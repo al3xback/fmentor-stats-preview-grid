@@ -11,7 +11,10 @@
 	overflow: hidden;
 }
 
-.card__image {
+.card__image,
+.card__content,
+.card__stats-list,
+.card__stats-list-item {
 	display: grid;
 }
 
@@ -35,7 +38,6 @@
 }
 
 .card__content {
-	display: grid;
 	padding: func.em(40, var.$font-size-primary)
 		func.em(24, var.$font-size-primary);
 	text-align: center;
@@ -51,11 +53,6 @@
 
 .card__desc {
 	margin-bottom: func.em(36, var.$font-size-primary);
-}
-
-.card__stats-list,
-.card__stats-list-item {
-	display: grid;
 }
 
 .card__stats-list {
