@@ -1,13 +1,13 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixins' as mix;
 
-footer {
+footer,
+footer .container {
 	display: grid;
-	padding: 1em 0;
-	text-align: center;
-	font-size: 0.75em;
 }
 
-footer > .container {
-	display: grid;
+footer {
+	padding: 1em 0;
+	text-align: center;
+	font-size: 0.8em;
 }

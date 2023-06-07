@@ -163,7 +163,7 @@ ol {
   -webkit-box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
   box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
-  font-size: 1.0666666667em;
+  font-size: 1em;
   text-decoration: none;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -301,15 +301,15 @@ main > .container {
   place-content: center;
 }
 
-footer {
+footer,
+footer .container {
   display: grid;
-  padding: 1em 0;
-  text-align: center;
-  font-size: 0.75em;
 }
 
-footer > .container {
-  display: grid;
+footer {
+  padding: 1em 0;
+  text-align: center;
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=main.css.map */

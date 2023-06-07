@@ -9,7 +9,7 @@
 	@include mix.user-select(none);
 	@include mix.border-radius(4px);
 	@include mix.box-shadow(0rem 0.5em 1.125em rgba(0, 0, 0, 0.2));
-	font-size: func.em(16, var.$font-size-primary);
+	font-size: 1em;
 	text-decoration: none;
 	@include mix.transition(all 0.4s);
 }
