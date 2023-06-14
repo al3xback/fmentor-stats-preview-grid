@@ -118,7 +118,6 @@ h6 {
 
 p {
   font-size: 1em;
-  line-height: 1.7333333333;
 }
 
 strong {
@@ -140,7 +139,7 @@ body {
   font-size: 0.9375em;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.6);
-  line-height: 1.25;
+  line-height: 1.7333333333;
 }
 
 ul,
@@ -234,7 +233,7 @@ ol {
 }
 
 .card__stats-list-item {
-  gap: 0.6666666667em;
+  gap: 0.1666666667em;
   font-size: 0.8em;
   text-transform: uppercase;
 }
@@ -275,7 +274,6 @@ ol {
   }
   .card__stats-list {
     grid-template-columns: auto auto auto;
-    gap: 2em;
   }
 }
 .container {

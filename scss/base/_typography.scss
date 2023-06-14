@@ -1,4 +1,3 @@
-@use 'sass:math';
 @use '../abstracts/variables' as var;
 @use '../abstracts/functions' as func;
 
@@ -36,7 +35,6 @@ h6 {
 
 p {
 	font-size: 1em;
-	line-height: math.div(26, 15);
 }
 
 strong {
