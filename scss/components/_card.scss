@@ -7,7 +7,7 @@
 	max-width: func.em(420, var.$font-size-primary);
 	margin: func.em(40, var.$font-size-primary) 0;
 	background-color: var.$color-dark-desaturated-blue;
-	@include mix.border-radius(8px);
+	border-radius: 8px;
 	overflow: hidden;
 }
 
