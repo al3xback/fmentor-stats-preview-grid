@@ -4,8 +4,8 @@
 .card {
 	display: grid;
 	max-width: func.em(420, var.$font-size-primary);
-	margin: func.em(40, var.$font-size-primary) 0;
 	background-color: var.$color-dark-desaturated-blue;
+	margin: func.em(40, var.$font-size-primary) 0;
 	border-radius: 8px;
 	overflow: hidden;
 }
