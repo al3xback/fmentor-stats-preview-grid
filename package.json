@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-stats-preview-grid",
 	"version": "1.0.0",
-	"description": "stats preview card component with display grid",
+	"description": "stats preview card component using display grid",
 	"main": "index.js",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
