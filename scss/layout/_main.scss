@@ -1,8 +1,8 @@
-main {
+main,
+main > .container {
 	display: grid;
 }
 
 main > .container {
-	display: grid;
-	place-content: center;
+	place-items: center;
 }
